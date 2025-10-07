@@ -1,0 +1,2451 @@
+{
+  "generatedAt": "2025-10-07T13:24:55.182Z",
+  "templates": {
+    "settings/sidebar": {
+      "id": "settings/sidebar",
+      "include": "./partials/settings/sidebar.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\settings.routes.js",
+          "line": 44,
+          "text": "templateUrl: 'settings/sidebar',"
+        }
+      ]
+    },
+    "settings/general/update": {
+      "id": "settings/general/update",
+      "include": "./partials/settings/general/update.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\settings.routes.js",
+          "line": 54,
+          "text": "templateUrl: 'settings/general/update',"
+        }
+      ]
+    },
+    "settings/contact/update": {
+      "id": "settings/contact/update",
+      "include": "./partials/settings/contact/update.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\settings.routes.js",
+          "line": 59,
+          "text": "templateUrl: 'settings/contact/update',"
+        }
+      ]
+    },
+    "settings/contact/shipping/update": {
+      "id": "settings/contact/shipping/update",
+      "include": "./partials/settings/contact/update-shipping-address.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\settings.routes.js",
+          "line": 64,
+          "text": "templateUrl: 'settings/contact/shipping/update',"
+        }
+      ]
+    },
+    "settings/contact/business/update": {
+      "id": "settings/contact/business/update",
+      "include": "./partials/settings/contact/update-business-address.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\settings.routes.js",
+          "line": 69,
+          "text": "templateUrl: 'settings/contact/business/update',"
+        }
+      ]
+    },
+    "directives/pager": {
+      "id": "directives/pager",
+      "include": "./partials/directives/pager.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\app.directives.js",
+          "line": 208,
+          "text": "templateUrl: 'directives/pager',"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "offering/sidebar": {
+      "id": "offering/sidebar",
+      "include": "./partials/offering/sidebar.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\offering.routes.js",
+          "line": 41,
+          "text": "templateUrl: 'offering/sidebar',"
+        }
+      ]
+    },
+    "offering/search": {
+      "id": "offering/search",
+      "include": "./partials/offering/search.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\offering.routes.js",
+          "line": 45,
+          "text": "templateUrl: 'offering/search',"
+        }
+      ]
+    },
+    "offering/detail": {
+      "id": "offering/detail",
+      "include": "./partials/offering/detail.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\offering.routes.js",
+          "line": 60,
+          "text": "templateUrl: 'offering/detail',"
+        }
+      ]
+    },
+    "offering/detail/product": {
+      "id": "offering/detail/product",
+      "include": "./partials/offering/detail-product.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\offering.routes.js",
+          "line": 69,
+          "text": "templateUrl: 'offering/detail/product'"
+        }
+      ]
+    },
+    "offering/detail/product-attachment": {
+      "id": "offering/detail/product-attachment",
+      "include": "./partials/offering/detail-product-attachment.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\offering.routes.js",
+          "line": 77,
+          "text": "templateUrl: 'offering/detail/product-attachment'"
+        }
+      ]
+    },
+    "offering/detail/bundled": {
+      "id": "offering/detail/bundled",
+      "include": "./partials/offering/detail-bundled.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\offering.routes.js",
+          "line": 88,
+          "text": "templateUrl: 'offering/detail/bundled'"
+        }
+      ]
+    },
+    "offering/detail/pricing": {
+      "id": "offering/detail/pricing",
+      "include": "./partials/offering/detail-pricing.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\offering.routes.js",
+          "line": 96,
+          "text": "templateUrl: 'offering/detail/pricing'"
+        }
+      ]
+    },
+    "offering/detail/licenseSla": {
+      "id": "offering/detail/licenseSla",
+      "include": "./partials/offering/detail-license-sla.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\offering.routes.js",
+          "line": 112,
+          "text": "templateUrl: 'offering/detail/licenseSla'"
+        }
+      ]
+    },
+    "offering/detail/relationship": {
+      "id": "offering/detail/relationship",
+      "include": "./partials/offering/detail-relationship.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\offering.routes.js",
+          "line": 104,
+          "text": "templateUrl: 'offering/detail/relationship'"
+        }
+      ]
+    },
+    "stock/sidebar": {
+      "id": "stock/sidebar",
+      "include": "./partials/stock/sidebar.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.routes.js",
+          "line": 44,
+          "text": "templateUrl: 'stock/sidebar',"
+        }
+      ]
+    },
+    "stock/product/search": {
+      "id": "stock/product/search",
+      "include": "./partials/stock/product/search.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.product.routes.js",
+          "line": 42,
+          "text": "templateUrl: 'stock/product/search',"
+        }
+      ]
+    },
+    "stock/product/create": {
+      "id": "stock/product/create",
+      "include": "./partials/stock/product/create.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.product.routes.js",
+          "line": 47,
+          "text": "templateUrl: 'stock/product/create',"
+        }
+      ]
+    },
+    "stock/product/create/general": {
+      "id": "stock/product/create/general",
+      "include": "./partials/stock/product/create-form.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product.controller.js",
+          "line": 949,
+          "text": "templateUrl: 'stock/product/create/general'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product/create/bundle": {
+      "id": "stock/product/create/bundle",
+      "include": "./partials/stock/product/create-form-bundle.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product.controller.js",
+          "line": 953,
+          "text": "templateUrl: 'stock/product/create/bundle'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product/create/characteristics": {
+      "id": "stock/product/create/characteristics",
+      "include": "./partials/stock/product/create-form-characteristics.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product.controller.js",
+          "line": 965,
+          "text": "templateUrl: 'stock/product/create/characteristics'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product/create/compliance": {
+      "id": "stock/product/create/compliance",
+      "include": "./partials/stock/product/create-form-compliance.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product.controller.js",
+          "line": 961,
+          "text": "templateUrl: 'stock/product/create/compliance'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product/create/attachments": {
+      "id": "stock/product/create/attachments",
+      "include": "./partials/stock/product/create-form-attachments.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product.controller.js",
+          "line": 977,
+          "text": "templateUrl: 'stock/product/create/attachments'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product/create/resources": {
+      "id": "stock/product/create/resources",
+      "include": "./partials/stock/product/create-form-resource.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product.controller.js",
+          "line": 969,
+          "text": "templateUrl: 'stock/product/create/resources'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product/create/services": {
+      "id": "stock/product/create/services",
+      "include": "./partials/stock/product/create-form-service.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product.controller.js",
+          "line": 973,
+          "text": "templateUrl: 'stock/product/create/services'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product/create/assets": {
+      "id": "stock/product/create/assets",
+      "include": "./partials/stock/product/create-form-assets.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product.controller.js",
+          "line": 957,
+          "text": "templateUrl: 'stock/product/create/assets'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product/create/relationships": {
+      "id": "stock/product/create/relationships",
+      "include": "./partials/stock/product/create-relationship.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product.controller.js",
+          "line": 981,
+          "text": "templateUrl: 'stock/product/create/relationships'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product/create/terms": {
+      "id": "stock/product/create/terms",
+      "include": "./partials/stock/product/create-form-terms.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product.controller.js",
+          "line": 985,
+          "text": "templateUrl: 'stock/product/create/terms'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product/create/finish": {
+      "id": "stock/product/create/finish",
+      "include": "./partials/stock/product/create-form-finish.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product.controller.js",
+          "line": 989,
+          "text": "templateUrl: 'stock/product/create/finish'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product/import": {
+      "id": "stock/product/import",
+      "include": "./partials/stock/product/import.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.product.routes.js",
+          "line": 52,
+          "text": "templateUrl: 'stock/product/import',"
+        }
+      ]
+    },
+    "stock/product/import/general": {
+      "id": "stock/product/import/general",
+      "include": "./partials/stock/product/import-form.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product/import/datastore": {
+      "id": "stock/product/import/datastore",
+      "include": "./partials/stock/product/import-datastore.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product.controller.js",
+          "line": 308,
+          "text": "templateUrl: 'stock/product/import/datastore'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product/import/finish": {
+      "id": "stock/product/import/finish",
+      "include": "./partials/stock/product/import-finish.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product.controller.js",
+          "line": 312,
+          "text": "templateUrl: 'stock/product/import/finish'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product/update": {
+      "id": "stock/product/update",
+      "include": "./partials/stock/product/update.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.product.routes.js",
+          "line": 57,
+          "text": "templateUrl: 'stock/product/update',"
+        }
+      ]
+    },
+    "stock/product/update/bundled": {
+      "id": "stock/product/update/bundled",
+      "include": "partials/stock/product/update-bundled-product",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.product.routes.js",
+          "line": 65,
+          "text": "templateUrl: 'stock/product/update/bundled'"
+        }
+      ]
+    },
+    "stock/product/update/characteristic": {
+      "id": "stock/product/update/characteristic",
+      "include": "./partials/stock/product/update-form-characteristic.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.product.routes.js",
+          "line": 77,
+          "text": "templateUrl: 'stock/product/update/characteristic'"
+        }
+      ]
+    },
+    "stock/product/update/resources": {
+      "id": "stock/product/update/resources",
+      "include": "./partials/stock/product/update-form-resources.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.product.routes.js",
+          "line": 81,
+          "text": "templateUrl: 'stock/product/update/resources'"
+        }
+      ]
+    },
+    "stock/product/update/services": {
+      "id": "stock/product/update/services",
+      "include": "./partials/stock/product/update-form-services.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.product.routes.js",
+          "line": 85,
+          "text": "templateUrl: 'stock/product/update/services'"
+        }
+      ]
+    },
+    "stock/product/update/attachment": {
+      "id": "stock/product/update/attachment",
+      "include": "./partials/stock/product/update-form-attachment.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.product.routes.js",
+          "line": 69,
+          "text": "templateUrl: 'stock/product/update/attachment'"
+        }
+      ]
+    },
+    "stock/product/update/relationship": {
+      "id": "stock/product/update/relationship",
+      "include": "./partials/stock/product/update-relationship.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.product.routes.js",
+          "line": 73,
+          "text": "templateUrl: 'stock/product/update/relationship'"
+        }
+      ]
+    },
+    "directives/forms/create-asset": {
+      "id": "directives/forms/create-asset",
+      "include": "./partials/stock/product/directives/create-asset-form.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\app.directives.js",
+          "line": 261,
+          "text": "templateUrl: 'directives/forms/create-asset'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product-offering/search": {
+      "id": "stock/product-offering/search",
+      "include": "./partials/stock/product-offering/search.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.product-offering.routes.js",
+          "line": 42,
+          "text": "templateUrl: 'stock/product-offering/search',"
+        }
+      ]
+    },
+    "stock/product-offering/create": {
+      "id": "stock/product-offering/create",
+      "include": "./partials/stock/product-offering/create.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.product-offering.routes.js",
+          "line": 47,
+          "text": "templateUrl: 'stock/product-offering/create',"
+        }
+      ]
+    },
+    "stock/product-offering/create/general": {
+      "id": "stock/product-offering/create/general",
+      "include": "./partials/stock/product-offering/create-form.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product-offering.controller.js",
+          "line": 318,
+          "text": "templateUrl: 'stock/product-offering/create/general'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product-offering/create/terms": {
+      "id": "stock/product-offering/create/terms",
+      "include": "./partials/stock/product-offering/create-form-terms.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product-offering.controller.js",
+          "line": 338,
+          "text": "templateUrl: 'stock/product-offering/create/terms'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product-offering/create/sla": {
+      "id": "stock/product-offering/create/sla",
+      "include": "./partials/stock/product-offering/create-form-sla2.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product-offering.controller.js",
+          "line": 342,
+          "text": "templateUrl: 'stock/product-offering/create/sla'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product-offering/create/bundle": {
+      "id": "stock/product-offering/create/bundle",
+      "include": "./partials/stock/product-offering/create-form-bundle.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product-offering.controller.js",
+          "line": 322,
+          "text": "templateUrl: 'stock/product-offering/create/bundle'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product-offering/create/priceplan": {
+      "id": "stock/product-offering/create/priceplan",
+      "include": "./partials/stock/product-offering/create-form-priceplan.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product-offering.controller.js",
+          "line": 346,
+          "text": "templateUrl: 'stock/product-offering/create/priceplan'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product-offering/create/product-bundle": {
+      "id": "stock/product-offering/create/product-bundle",
+      "include": "./partials/stock/product-offering/create-form-product-bundle.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product-offering/create/product": {
+      "id": "stock/product-offering/create/product",
+      "include": "./partials/stock/product-offering/create-form-product.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product-offering.controller.js",
+          "line": 326,
+          "text": "templateUrl: 'stock/product-offering/create/product'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product-offering/create/catalogue": {
+      "id": "stock/product-offering/create/catalogue",
+      "include": "./partials/stock/product-offering/create-form-catalogue.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product-offering.controller.js",
+          "line": 330,
+          "text": "templateUrl: 'stock/product-offering/create/catalogue'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product-offering/create/categories": {
+      "id": "stock/product-offering/create/categories",
+      "include": "./partials/stock/product-offering/create-form-categories.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product-offering.controller.js",
+          "line": 334,
+          "text": "templateUrl: 'stock/product-offering/create/categories'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product-offering/create/finish": {
+      "id": "stock/product-offering/create/finish",
+      "include": "./partials/stock/product-offering/create-form-finish.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product-offering.controller.js",
+          "line": 354,
+          "text": "templateUrl: 'stock/product-offering/create/finish'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product-offering/create/sharing": {
+      "id": "stock/product-offering/create/sharing",
+      "include": "./partials/stock/product-offering/create-form-sharing-model.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product-offering.controller.js",
+          "line": 350,
+          "text": "templateUrl: 'stock/product-offering/create/sharing'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product-offering/update": {
+      "id": "stock/product-offering/update",
+      "include": "./partials/stock/product-offering/update.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.product-offering.routes.js",
+          "line": 52,
+          "text": "templateUrl: 'stock/product-offering/update',"
+        }
+      ]
+    },
+    "stock/product-offering/update/bundled": {
+      "id": "stock/product-offering/update/bundled",
+      "include": "partials/stock/product-offering/update-bundled-offerings",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.product-offering.routes.js",
+          "line": 60,
+          "text": "templateUrl: 'stock/product-offering/update/bundled'"
+        }
+      ]
+    },
+    "stock/product-offering/update/priceplan": {
+      "id": "stock/product-offering/update/priceplan",
+      "include": "./partials/stock/product-offering/update-priceplan.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.product-offering.routes.js",
+          "line": 64,
+          "text": "templateUrl: 'stock/product-offering/update/priceplan'"
+        }
+      ]
+    },
+    "stock/product-offering/update/category": {
+      "id": "stock/product-offering/update/category",
+      "include": "./partials/stock/product-offering/update-category.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.product-offering.routes.js",
+          "line": 68,
+          "text": "templateUrl: 'stock/product-offering/update/category'"
+        }
+      ]
+    },
+    "directives/offering-priceplan": {
+      "id": "directives/offering-priceplan",
+      "include": "./partials/stock/product-offering/directives/priceplan.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "directives/offering-sla": {
+      "id": "directives/offering-sla",
+      "include": "./partials/stock/product-offering/directives/sla.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "directives/forms/priceplan": {
+      "id": "directives/forms/priceplan",
+      "include": "./partials/stock/product-offering/directives/priceplan-form.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\app.directives.js",
+          "line": 184,
+          "text": "templateUrl: 'directives/forms/priceplan'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "directives/forms/sla": {
+      "id": "directives/forms/sla",
+      "include": "./partials/stock/product-offering/directives/sla-form.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\app.directives.js",
+          "line": 196,
+          "text": "templateUrl: 'directives/forms/sla'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "directives/forms/business-address": {
+      "id": "directives/forms/business-address",
+      "include": "./partials/settings/contact/directives/business-address-form.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\app.directives.js",
+          "line": 275,
+          "text": "templateUrl: 'directives/forms/business-address'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "directives/forms/shipping-address": {
+      "id": "directives/forms/shipping-address",
+      "include": "./partials/settings/contact/directives/shipping-address-form.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\app.directives.js",
+          "line": 289,
+          "text": "templateUrl: 'directives/forms/shipping-address'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "directives/forms/relationship-create": {
+      "id": "directives/forms/relationship-create",
+      "include": "./partials/stock/product/directives/relationship-create-form.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\app.directives.js",
+          "line": 322,
+          "text": "templateUrl: 'directives/forms/relationship-create'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "directives/forms/relationship-delete": {
+      "id": "directives/forms/relationship-delete",
+      "include": "./partials/stock/product/directives/relationship-delete-form.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\app.directives.js",
+          "line": 333,
+          "text": "templateUrl: 'directives/forms/relationship-delete'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "directives/tables/priceplan": {
+      "id": "directives/tables/priceplan",
+      "include": "./partials/stock/product-offering/directives/priceplan-table.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\app.directives.js",
+          "line": 300,
+          "text": "templateUrl: 'directives/tables/priceplan'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "directives/tables/sla": {
+      "id": "directives/tables/sla",
+      "include": "./partials/stock/product-offering/directives/sla-table.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\app.directives.js",
+          "line": 311,
+          "text": "templateUrl: 'directives/tables/sla'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product-catalogue/search": {
+      "id": "stock/product-catalogue/search",
+      "include": "./partials/stock/product-catalogue/search.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.product-catalogue.routes.js",
+          "line": 41,
+          "text": "templateUrl: 'stock/product-catalogue/search',"
+        }
+      ]
+    },
+    "stock/product-catalogue/create": {
+      "id": "stock/product-catalogue/create",
+      "include": "./partials/stock/product-catalogue/create.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.product-catalogue.routes.js",
+          "line": 46,
+          "text": "templateUrl: 'stock/product-catalogue/create',"
+        }
+      ]
+    },
+    "stock/product-catalogue/create/general": {
+      "id": "stock/product-catalogue/create/general",
+      "include": "./partials/stock/product-catalogue/create-form.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product-catalogue.controller.js",
+          "line": 241,
+          "text": "templateUrl: 'stock/product-catalogue/create/general'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product-catalogue/create/finish": {
+      "id": "stock/product-catalogue/create/finish",
+      "include": "./partials/stock/product-catalogue/create-form-finish.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product-catalogue.controller.js",
+          "line": 245,
+          "text": "templateUrl: 'stock/product-catalogue/create/finish'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/product-catalogue/update": {
+      "id": "stock/product-catalogue/update",
+      "include": "./partials/stock/product-catalogue/update.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.product-catalogue.routes.js",
+          "line": 51,
+          "text": "templateUrl: 'stock/product-catalogue/update',"
+        }
+      ]
+    },
+    "stock/product-catalogue/update/party": {
+      "id": "stock/product-catalogue/update/party",
+      "include": "./partials/stock/product-catalogue/update-party.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.product-catalogue.routes.js",
+          "line": 56,
+          "text": "templateUrl: 'stock/product-catalogue/update/party'"
+        }
+      ]
+    },
+    "stock/product-catalogue/update/offering": {
+      "id": "stock/product-catalogue/update/offering",
+      "include": "./partials/stock/product-catalogue/update-offering.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.product-catalogue.routes.js",
+          "line": 63,
+          "text": "templateUrl: 'stock/product-catalogue/update/offering',"
+        }
+      ]
+    },
+    "stock/service-specification/search": {
+      "id": "stock/service-specification/search",
+      "include": "./partials/stock/service-specification/search.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.service-specifications.routes.js",
+          "line": 37,
+          "text": "templateUrl: 'stock/service-specification/search',"
+        }
+      ]
+    },
+    "stock/service-specification/create": {
+      "id": "stock/service-specification/create",
+      "include": "./partials/stock/service-specification/create.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.service-specifications.routes.js",
+          "line": 42,
+          "text": "templateUrl: 'stock/service-specification/create',"
+        }
+      ]
+    },
+    "stock/service-specification/create/general": {
+      "id": "stock/service-specification/create/general",
+      "include": "./partials/stock/service-specification/create-form.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\service-catalog.controller.js",
+          "line": 239,
+          "text": "templateUrl: 'stock/service-specification/create/general'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/service-specification/create/characteristics": {
+      "id": "stock/service-specification/create/characteristics",
+      "include": "./partials/stock/service-specification/create-form-characteristics.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\service-catalog.controller.js",
+          "line": 243,
+          "text": "templateUrl: 'stock/service-specification/create/characteristics'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/service-specification/create/finish": {
+      "id": "stock/service-specification/create/finish",
+      "include": "./partials/stock/service-specification/create-form-finish.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\service-catalog.controller.js",
+          "line": 247,
+          "text": "templateUrl: 'stock/service-specification/create/finish'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/service-specification/update": {
+      "id": "stock/service-specification/update",
+      "include": "./partials/stock/service-specification/update.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.service-specifications.routes.js",
+          "line": 47,
+          "text": "templateUrl: 'stock/service-specification/update',"
+        }
+      ]
+    },
+    "stock/service-specification/update/characteristic": {
+      "id": "stock/service-specification/update/characteristic",
+      "include": "./partials/stock/service-specification/update-form-characteristic.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.service-specifications.routes.js",
+          "line": 52,
+          "text": "templateUrl: 'stock/service-specification/update/characteristic'"
+        }
+      ]
+    },
+    "stock/resource-spec/search": {
+      "id": "stock/resource-spec/search",
+      "include": "./partials/stock/resource-spec/search.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.resource-spec.routes.js",
+          "line": 37,
+          "text": "templateUrl: 'stock/resource-spec/search',"
+        }
+      ]
+    },
+    "stock/resource-spec/create": {
+      "id": "stock/resource-spec/create",
+      "include": "./partials/stock/resource-spec/create.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.resource-spec.routes.js",
+          "line": 42,
+          "text": "templateUrl: 'stock/resource-spec/create',"
+        }
+      ]
+    },
+    "stock/resource-spec/create/general": {
+      "id": "stock/resource-spec/create/general",
+      "include": "./partials/stock/resource-spec/create-form.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\resource-spec.controller.js",
+          "line": 225,
+          "text": "templateUrl: 'stock/resource-spec/create/general'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/resource-spec/create/characteristics": {
+      "id": "stock/resource-spec/create/characteristics",
+      "include": "./partials/stock/resource-spec/create-form-characteristics.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\resource-spec.controller.js",
+          "line": 229,
+          "text": "templateUrl: 'stock/resource-spec/create/characteristics'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/resource-spec/create/finish": {
+      "id": "stock/resource-spec/create/finish",
+      "include": "./partials/stock/resource-spec/create-form-finish.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\resource-spec.controller.js",
+          "line": 233,
+          "text": "templateUrl: 'stock/resource-spec/create/finish'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "stock/resource-spec/update": {
+      "id": "stock/resource-spec/update",
+      "include": "./partials/stock/resource-spec/update.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.resource-spec.routes.js",
+          "line": 47,
+          "text": "templateUrl: 'stock/resource-spec/update',"
+        }
+      ]
+    },
+    "stock/resource-spec/update/characteristic": {
+      "id": "stock/resource-spec/update/characteristic",
+      "include": "./partials/stock/resource-spec/update-form-characteristic.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\stock.resource-spec.routes.js",
+          "line": 52,
+          "text": "templateUrl: 'stock/resource-spec/update/characteristic'"
+        }
+      ]
+    },
+    "rss/sidebar": {
+      "id": "rss/sidebar",
+      "include": "./partials/rss/sidebar.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\rss.routes.js",
+          "line": 42,
+          "text": "templateUrl: 'rss/sidebar',"
+        }
+      ]
+    },
+    "rss/sharing-models/search": {
+      "id": "rss/sharing-models/search",
+      "include": "partials/rss/sharing-models/search.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\rss.sharing-models.routes.js",
+          "line": 34,
+          "text": "templateUrl: 'rss/sharing-models/search',"
+        }
+      ]
+    },
+    "rss/sharing-models/create": {
+      "id": "rss/sharing-models/create",
+      "include": "partials/rss/sharing-models/create.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\rss.sharing-models.routes.js",
+          "line": 39,
+          "text": "templateUrl: 'rss/sharing-models/create',"
+        }
+      ]
+    },
+    "rss/sharing-models/create/general": {
+      "id": "rss/sharing-models/create/general",
+      "include": "partials/rss/sharing-models/create-form.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\sharing-models.controller.js",
+          "line": 246,
+          "text": "templateUrl: 'rss/sharing-models/create/general'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "rss/sharing-models/create/stakeholders": {
+      "id": "rss/sharing-models/create/stakeholders",
+      "include": "partials/rss/sharing-models/create-form-stakeholders.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\sharing-models.controller.js",
+          "line": 250,
+          "text": "templateUrl: 'rss/sharing-models/create/stakeholders'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "rss/sharing-models/create/finish": {
+      "id": "rss/sharing-models/create/finish",
+      "include": "partials/rss/sharing-models/create-form-finish.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\sharing-models.controller.js",
+          "line": 254,
+          "text": "templateUrl: 'rss/sharing-models/create/finish'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "rss/sharing-models/update": {
+      "id": "rss/sharing-models/update",
+      "include": "partials/rss/sharing-models/update.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\rss.sharing-models.routes.js",
+          "line": 44,
+          "text": "templateUrl: 'rss/sharing-models/update',"
+        }
+      ]
+    },
+    "rss/transactions/search": {
+      "id": "rss/transactions/search",
+      "include": "partials/rss/transactions/search.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\rss.transactions.routes.js",
+          "line": 36,
+          "text": "templateUrl: 'rss/transactions/search',"
+        }
+      ]
+    },
+    "rss/reports/search": {
+      "id": "rss/reports/search",
+      "include": "partials/rss/reports/search.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\rss.reports.routes.js",
+          "line": 33,
+          "text": "templateUrl: 'rss/reports/search',"
+        }
+      ]
+    },
+    "inventory/sidebar": {
+      "id": "inventory/sidebar",
+      "include": "./partials/inventory/sidebar.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\inventory.routes.js",
+          "line": 42,
+          "text": "templateUrl: 'inventory/sidebar',"
+        }
+      ]
+    },
+    "inventory/product-order/search": {
+      "id": "inventory/product-order/search",
+      "include": "./partials/inventory/product-order/search.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\inventory.product-order.routes.js",
+          "line": 41,
+          "text": "templateUrl: 'inventory/product-order/search',"
+        }
+      ]
+    },
+    "inventory/product-order/detail": {
+      "id": "inventory/product-order/detail",
+      "include": "./partials/inventory/product-order/detail.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\inventory.product-order.routes.js",
+          "line": 46,
+          "text": "templateUrl: 'inventory/product-order/detail',"
+        }
+      ]
+    },
+    "inventory/product-order/detail-note": {
+      "id": "inventory/product-order/detail-note",
+      "include": "./partials/inventory/product-order/detail-note.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\inventory.product-order.routes.js",
+          "line": 51,
+          "text": "templateUrl: 'inventory/product-order/detail-note'"
+        }
+      ]
+    },
+    "inventory/product/search": {
+      "id": "inventory/product/search",
+      "include": "partials/inventory/product/search",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\inventory.product.routes.js",
+          "line": 41,
+          "text": "templateUrl: 'inventory/product/search',"
+        }
+      ]
+    },
+    "inventory/product/detail": {
+      "id": "inventory/product/detail",
+      "include": "partials/inventory/product/detail",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\inventory.product.routes.js",
+          "line": 46,
+          "text": "templateUrl: 'inventory/product/detail',"
+        }
+      ]
+    },
+    "inventory/product/detail/characteristic": {
+      "id": "inventory/product/detail/characteristic",
+      "include": "./partials/inventory/product/detail-content-characteristic.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\inventory.product.routes.js",
+          "line": 51,
+          "text": "templateUrl: 'inventory/product/detail/characteristic'"
+        }
+      ]
+    },
+    "inventory/product/detail/access": {
+      "id": "inventory/product/detail/access",
+      "include": "./partials/inventory/product/access.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\inventory.product.routes.js",
+          "line": 55,
+          "text": "templateUrl: 'inventory/product/detail/access'"
+        }
+      ]
+    },
+    "inventory/product/detail/priceplan": {
+      "id": "inventory/product/detail/priceplan",
+      "include": "./partials/inventory/product/detail-content-priceplan.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\inventory.product.routes.js",
+          "line": 59,
+          "text": "templateUrl: 'inventory/product/detail/priceplan'"
+        }
+      ]
+    },
+    "inventory/product/detail/usage": {
+      "id": "inventory/product/detail/usage",
+      "include": "./partials/inventory/product/detail-content-usage.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\inventory.product.routes.js",
+          "line": 67,
+          "text": "templateUrl: 'inventory/product/detail/usage'"
+        }
+      ]
+    },
+    "inventory/product/detail/charges": {
+      "id": "inventory/product/detail/charges",
+      "include": "./partials/inventory/product/detail-content-charges.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\inventory.product.routes.js",
+          "line": 63,
+          "text": "templateUrl: 'inventory/product/detail/charges'"
+        }
+      ]
+    },
+    "inventory/product/detail/resources": {
+      "id": "inventory/product/detail/resources",
+      "include": "./partials/inventory/product/detail-content-resources.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\inventory.product.routes.js",
+          "line": 75,
+          "text": "templateUrl: 'inventory/product/detail/resources'"
+        }
+      ]
+    },
+    "inventory/product/detail/services": {
+      "id": "inventory/product/detail/services",
+      "include": "./partials/inventory/product/detail-content-services.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\inventory.product.routes.js",
+          "line": 71,
+          "text": "templateUrl: 'inventory/product/detail/services'"
+        }
+      ]
+    },
+    "inventory/service/search": {
+      "id": "inventory/service/search",
+      "include": "partials/inventory/service/search",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\inventory.service.routes.js",
+          "line": 35,
+          "text": "templateUrl: 'inventory/service/search',"
+        }
+      ]
+    },
+    "inventory/service/detail": {
+      "id": "inventory/service/detail",
+      "include": "partials/inventory/service/detail",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\inventory.service.routes.js",
+          "line": 40,
+          "text": "templateUrl: 'inventory/service/detail',"
+        }
+      ]
+    },
+    "inventory/service/detail/characteristic": {
+      "id": "inventory/service/detail/characteristic",
+      "include": "./partials/inventory/service/detail-content-characteristic.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\inventory.service.routes.js",
+          "line": 45,
+          "text": "templateUrl: 'inventory/service/detail/characteristic'"
+        }
+      ]
+    },
+    "inventory/resource/search": {
+      "id": "inventory/resource/search",
+      "include": "partials/inventory/resource/search",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\inventory.resource.routes.js",
+          "line": 35,
+          "text": "templateUrl: 'inventory/resource/search',"
+        }
+      ]
+    },
+    "inventory/resource/detail": {
+      "id": "inventory/resource/detail",
+      "include": "partials/inventory/resource/detail",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\inventory.resource.routes.js",
+          "line": 40,
+          "text": "templateUrl: 'inventory/resource/detail',"
+        }
+      ]
+    },
+    "inventory/resource/detail/characteristic": {
+      "id": "inventory/resource/detail/characteristic",
+      "include": "./partials/inventory/resource/detail-content-characteristic.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\inventory.resource.routes.js",
+          "line": 45,
+          "text": "templateUrl: 'inventory/resource/detail/characteristic'"
+        }
+      ]
+    },
+    "shopping-cart/list": {
+      "id": "shopping-cart/list",
+      "include": "partials/shopping-cart/create",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\shopping-cart.routes.js",
+          "line": 45,
+          "text": "templateUrl: 'shopping-cart/list',"
+        }
+      ]
+    },
+    "admin/sidebar": {
+      "id": "admin/sidebar",
+      "include": "./partials/admin/sidebar.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\admin.routes.js",
+          "line": 42,
+          "text": "templateUrl: 'admin/sidebar',"
+        }
+      ]
+    },
+    "admin/product-category/search": {
+      "id": "admin/product-category/search",
+      "include": "./partials/admin/product-category/search.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\admin.product-category.routes.js",
+          "line": 43,
+          "text": "templateUrl: 'admin/product-category/search',"
+        }
+      ]
+    },
+    "admin/product-category/create": {
+      "id": "admin/product-category/create",
+      "include": "./partials/admin/product-category/create.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\admin.product-category.routes.js",
+          "line": 50,
+          "text": "templateUrl: 'admin/product-category/create',"
+        }
+      ]
+    },
+    "admin/product-category/create/general": {
+      "id": "admin/product-category/create/general",
+      "include": "./partials/admin/product-category/create-form.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product-category.controller.js",
+          "line": 147,
+          "text": "templateUrl: 'admin/product-category/create/general'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "admin/product-category/create/finish": {
+      "id": "admin/product-category/create/finish",
+      "include": "./partials/admin/product-category/create-form-finish.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\product-category.controller.js",
+          "line": 151,
+          "text": "templateUrl: 'admin/product-category/create/finish'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "admin/product-category/update": {
+      "id": "admin/product-category/update",
+      "include": "./partials/admin/product-category/update.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\admin.product-category.routes.js",
+          "line": 55,
+          "text": "templateUrl: 'admin/product-category/update',"
+        }
+      ]
+    },
+    "admin/idps/search": {
+      "id": "admin/idps/search",
+      "include": "./partials/admin/idps/search.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\admin.idps.routes.js",
+          "line": 37,
+          "text": "templateUrl: 'admin/idps/search',"
+        }
+      ]
+    },
+    "admin/idps/create": {
+      "id": "admin/idps/create",
+      "include": "./partials/admin/idps/create.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\admin.idps.routes.js",
+          "line": 44,
+          "text": "templateUrl: 'admin/idps/create',"
+        }
+      ]
+    },
+    "admin/idps/create/general": {
+      "id": "admin/idps/create/general",
+      "include": "./partials/admin/idps/create-form.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\idps.controller.js",
+          "line": 86,
+          "text": "templateUrl: 'admin/idps/create/general'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "admin/idps/create/finish": {
+      "id": "admin/idps/create/finish",
+      "include": "./partials/admin/idps/create-form-finish.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\controllers\\idps.controller.js",
+          "line": 90,
+          "text": "templateUrl: 'admin/idps/create/finish'"
+        },
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        }
+      ]
+    },
+    "admin/idps/update": {
+      "id": "admin/idps/update",
+      "include": "./partials/admin/idps/update.jade",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\admin.idps.routes.js",
+          "line": 49,
+          "text": "templateUrl: 'admin/idps/update',"
+        }
+      ]
+    },
+    "unauthorized": {
+      "id": "unauthorized",
+      "include": "partials/unauthorized",
+      "includedFrom": "views/base.jade",
+      "references": [
+        {
+          "type": "directive-dynamic-template",
+          "file": "public\\resources\\core\\js\\directives\\product-offering.directives.js",
+          "line": 40,
+          "text": "templateUrl: templateUrl"
+        },
+        {
+          "type": "route/controller",
+          "file": "public\\resources\\core\\js\\routes\\unauthorized.routes.js",
+          "line": 40,
+          "text": "templateUrl: 'unauthorized'"
+        }
+      ]
+    }
+  }
+}
