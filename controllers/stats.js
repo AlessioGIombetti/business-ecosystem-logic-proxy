@@ -34,7 +34,8 @@ function stats() {
         let data = []
 
         while (!complete) {
-            let productUrl = baseUrl + `&offset=${start}&limit=${limit}`
+            let productUrl = baseUrl 
+            // + `&offset=${start}&limit=${limit}`
             const response = await axios.request({
                 method: 'GET',
                 url: productUrl
