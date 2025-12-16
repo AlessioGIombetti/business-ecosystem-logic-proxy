@@ -172,6 +172,13 @@ var defaultConfig = {
 			host: 'quote.com',
 			port: '8637',
 			appSsl: false
+		},
+		revenue: {
+			path: 'revenue',
+			apiPath: '/revenue',
+			host: 'revenue.com',
+			port: '8637',
+			appSsl: false
 		}
 	},
 	billingAccountOwnerRole: 'owner',
@@ -199,7 +206,8 @@ exports.emptyLogger = {
 			return {
 				info: emptyFunction,
 				warn: emptyFunction,
-				error: emptyFunction
+				error: emptyFunction,
+				debug: emptyFunction
 			};
 		}
 	}

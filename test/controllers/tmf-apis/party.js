@@ -45,6 +45,11 @@ describe('Party API', function() {
         message: 'Invalid phone number'
     };
 
+    const INVALID_COUNTRY = {
+        status: 422,
+        message: 'Invalid country code'
+    };
+
     const NOT_AUTH_ERROR = {
         status: 403,
         message: 'You are not allowed to access this resource'
@@ -131,7 +136,7 @@ describe('Party API', function() {
             var indPath = 'individual/';
             var orgPath = 'organization/';
 
-            var accessPartyTest = function(party, path, user, expectedErr, conf, phone, done) {
+            var accessPartyTest = function(party, path, user, expectedErr, conf, phone, done, countryValue) {
                 loggedIn = true;
 
                 var req = {
@@ -150,7 +155,13 @@ describe('Party API', function() {
                                     "phoneNumber": "+34650546882" // correct
                                 }
                             }
-                        ]
+                        ],
+                        ...(countryValue && {partyCharacteristic: [
+                            {
+                                name: "country",
+                                value: countryValue
+                            }
+                        ]})
                     })
 
 
@@ -199,7 +210,7 @@ describe('Party API', function() {
             it('should not allow to modify organization if the phone validator fails', function(done) {
                 var userObj = {
                     partyId: 'org',
-                    userNickname: 'user',
+                    userId: 'user',
                     roles: [{ name: testUtils.getDefaultConfig().oauth2.roles.orgAdmin }]
                 };
                 accessPartyTest('org', orgPath, userObj, INVALID_NUMBER, null, false, done);
@@ -208,16 +219,25 @@ describe('Party API', function() {
             it('should allow to modify organization if the user is an org admin', function(done) {
                 var userObj = {
                     partyId: 'org',
-                    userNickname: 'user',
+                    userId: 'user',
                     roles: [{ name: testUtils.getDefaultConfig().oauth2.roles.orgAdmin }]
                 };
-                accessPartyTest('org', orgPath, userObj, null, null, true, done);
+                accessPartyTest('org', orgPath, userObj, null, null, true, done, "ES");
+            });
+
+            it('should not allow to modify organization with a invalid country code', function(done) {
+                var userObj = {
+                    partyId: 'org',
+                    userId: 'user',
+                    roles: [{ name: testUtils.getDefaultConfig().oauth2.roles.orgAdmin }]
+                };
+                accessPartyTest('org', orgPath, userObj, INVALID_COUNTRY, null, true, done, "France");
             });
 
             it('should not allow to modify individual if the user is an organization', function(done) {
                 var userObj = {
                     id: 'org',
-                    userNickname: 'user',
+                    userId: 'user',
                     roles: [{ name: testUtils.getDefaultConfig().oauth2.roles.orgAdmin }]
                 };
                 accessPartyTest('org', indPath, userObj, NOT_AUTH_ERROR, null, true, done);
@@ -233,7 +253,7 @@ describe('Party API', function() {
             it('should not allow to modify organization if the user is not an org admin', function(done) {
                 var userObj = {
                     id: 'org',
-                    userNickname: 'user',
+                    userId: 'user',
                     roles: []
                 };
                 accessPartyTest('org', orgPath, userObj, NOT_AUTH_ERROR, null, true, done);
@@ -243,7 +263,7 @@ describe('Party API', function() {
                 loggedIn = true;
                 var user = {
                     partyId: 'org',
-                    userNickname: 'user',
+                    userId: 'user',
                     roles: [{ name: testUtils.getDefaultConfig().oauth2.roles.orgAdmin }]
                 };
 
