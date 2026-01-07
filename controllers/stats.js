@@ -36,31 +36,39 @@ function stats() {
         return response.data
     }
 
-    const pageData = async function(baseUrl, mapper) {
+    const pageData = async function (baseUrl, mapper) {
+        logger.error('HERE calling stats')
+
         let start = 0
         let limit = 50
         let complete = false
         let data = []
 
-        while (!complete) {
-            let productUrl = baseUrl 
-            // + `&offset=${start}&limit=${limit}`
-            const response = await axios.request({
-                method: 'GET',
-                url: productUrl
-            })
+        const response = await axios.request({
+            method: 'GET',
+            url: baseUrl
+        })
+        data = data.concat(response.data.map(mapper))
 
-            if (response.data.length == 0) {
-                complete = true
-            }
+        // while (!complete) {
+        //     let productUrl = baseUrl + `&offset=${start}&limit=${limit}`
+        //     const response = await axios.request({
+        //         method: 'GET',
+        //         url: productUrl
+        //     })
 
-            data = data.concat(response.data.map(mapper))
-            start += limit
-        }
+        //     if (response.data.length == 0) {
+        //         complete = true
+        //     }
+
+        //     data = data.concat(response.data.map(mapper))
+        //     start += limit
+        // }
         return data
     }
 
-    const loadStats = async function() {
+    const loadStats = async function () {
+        logger.error('HERE loading stats')
         // Get the list of launched offering
         const products = new Set()
 
@@ -116,21 +124,23 @@ function stats() {
         }
     }
 
-    const getStats = function(req, res) {
+    const getStats = function (req, res) {
+        logger.error('HERE getting stats')
         statsSchema.findOne().then((result) => {
             res.send(result)
         })
     }
 
-    const init = function() {
+    const init = function () {
+        logger.error('HERE init')
         return loadStats()
-        .catch((err) => {
-            console.log(err)
-            logger.error('Stats could not be loaded')
-        })
-        .finally(() => {
-            cron.schedule('0 3 * * *', loadStats);
-        })
+            .catch((err) => {
+                console.log(err)
+                logger.error('Stats could not be loaded')
+            })
+            .finally(() => {
+                cron.schedule('0 3 * * *', loadStats);
+            })
     }
 
     return {
